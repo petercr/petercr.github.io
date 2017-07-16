@@ -1,0 +1,101 @@
+/* Corresponding Style Sheet for Project 2 of Free Code Camp
+  * Coded by Peter Cruckshank
+  GitHub: github.com/PeterCr
+*/
+
+/* GLOBAL styling*/
+.nav {
+  font-family: 'Spectral', serif;
+
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-family: 'Indie Flower', cursive;
+}
+
+body {
+  font-family: 'Roboto Slab', serif;
+}
+
+
+footer {
+  background-color: #99ebff;
+  font-family: 'Roboto Slab', serif;
+  padding-left: 50px;
+
+}
+
+footer ul {
+  list-style: none;
+  word-wrap: normal;
+  padding-left: 0;
+}
+
+footer button {
+  width: 50px;
+  height: 50px;
+  border-radius: 55%;
+  display: inline-block;
+  margin-top: 25px;
+  padding: 10px;
+}
+
+/* #ID styling */
+
+#section1 {
+
+  font-size: 1.66em;
+  text-shadow: 2px 2px 1px black;
+  background: url(sandPic1.jpg) repeat;
+  background-size: cover;
+  color: #1F30DD;
+  padding-top: 200px;
+  padding-bottom: 50px;
+  margin: 0;
+}
+
+#section1 h6 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.1em;
+
+}
+
+#topButtons {
+
+  padding-bottom: 200px;
+  padding: 25px;
+
+
+}
+
+#section2 {
+  background-color: black;
+}
+
+#section2 .jumbotron {
+  max-height: 318.5px;
+  background-color: #99ebff;
+  overflow: auto;
+}
+
+#section2 a {
+  color: #000;
+  text-shadow: 2px 2px 3px #000;
+  text-decoration: underline;
+}
+
+#portfolioLinks {
+  column-fill: auto;
+  padding-top: 50px;
+
+}
+
+#section3 {
+  padding-bottom: 50px;
+}
+
+#section3 .logoFont {
+  font-size: 1.6em;
+  font-family: 'Indie Flower', cursive;
+}
