@@ -47,7 +47,7 @@ footer button {
 
   font-size: 1.66em;
   text-shadow: 2px 2px 1px black;
-  background: url(beachSunset.jpg) repeat;
+  background: url(../beachSunset.jpg) repeat;
   background-size: cover;
   color: #FFFFFF;
   padding-top: 200px;
