@@ -45,7 +45,7 @@
                         
                     <li class="active"><a href="#section1">Home</a></li>
                     <li><a href="#section2">Portfolio</a></li>
-                    <li><a href="#section3">Contact</a></li>
+                    <li><a href="#" class="scrollLink" id="contactButton">Contact</a></li>
                     
                 </ul>
             </div>
@@ -301,6 +301,11 @@
 
 
         </script>
+    <script>
+        const section3 = document.getElementById('section3');
+        document.getElementById('contactButton').addEventListener('click', section3.scrollIntoView({behavior: 'smooth'}) );
+        
+    </script>
 
   </body>
 
