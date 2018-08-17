@@ -20,6 +20,11 @@ body {
 
 
 footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
   background-color: #99ebff;
   font-family: 'Roboto Slab', serif;
   padding-left: 50px;
@@ -41,7 +46,7 @@ footer button {
   padding: 10px;
 }
 
-/* #ID styling */
+/* Styling by ID */
 
 #section1 {
 
