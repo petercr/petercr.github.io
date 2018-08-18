@@ -1,0 +1,28 @@
+{
+  "name": "cape-cod-world",
+  "version": "1.0.0",
+  "description": "My Portfolio Page",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petercr/petercr.github.io.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "bootstrap4"
+  ],
+  "author": "Peter Cruckshank",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/petercr/petercr.github.io/issues"
+  },
+  "homepage": "https://petercr.github.io",
+  "devDependencies": {
+    "gh-pages": "^1.2.0",
+    "parcel-bundler": "^1.9.7"
+  }
+}
