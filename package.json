@@ -25,5 +25,9 @@
   "devDependencies": {
     "gh-pages": "^1.2.0",
     "parcel-bundler": "^1.9.7"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.1.5",
+    "postcss-modules": "^1.4.1"
   }
 }
