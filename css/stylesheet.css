@@ -66,10 +66,22 @@ footer button {
 
 }
 
-#topButtons {
+#section1 button {
+  padding: 8px;
+  margin: 5px;
+}
 
-  padding-bottom: 200px;
-  padding: 25px;
+.btn-group {
+  display : flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 25px;
+
+  /* padding-bottom: 200px;
+  padding: 25px; */
 
 
 }
@@ -103,4 +115,15 @@ footer button {
 #section3 .logoFont {
   font-size: 1.6em;
   font-family: 'Indie Flower', cursive;
+}
+
+/* Media Queries  */
+@media screen and (max-width: 760px) {
+  .btn-group {
+    display: flex;
+    flex-direction: column; 
+  }
+  #section1 button {
+    width: 25%;
+  }
 }
