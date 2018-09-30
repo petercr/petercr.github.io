@@ -118,12 +118,13 @@ footer button {
 }
 
 /* Media Queries  */
+/* Tables and smaller */
 @media screen and (max-width: 760px) {
   .btn-group {
     display: flex;
     flex-direction: column; 
   }
   #section1 button {
-    width: 25%;
+    width: 40%;
   }
 }
