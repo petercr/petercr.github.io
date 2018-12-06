@@ -5,19 +5,17 @@
 
 /* GLOBAL styling*/
 .nav {
-  font-family: 'Spectral', serif;
-
+  font-family: "Spectral", serif;
 }
 
 .navbar-brand {
   font-weight: bold;
-  font-family: 'Indie Flower', cursive;
+  font-family: "Indie Flower", cursive;
 }
 
 body {
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
 }
-
 
 footer {
   display: flex;
@@ -26,9 +24,8 @@ footer {
   align-content: center;
   align-items: center;
   background-color: #99ebff;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   padding-left: 50px;
-
 }
 
 footer ul {
@@ -49,41 +46,24 @@ footer button {
 /* Styling by ID */
 
 #section1 {
-
   font-size: 1.66em;
   text-shadow: 2px 2px 1px black;
   background: url(../img/beachSunset.jpg) repeat;
   background-size: cover;
-  color: #FFFFFF;
+  color: #ffffff;
   padding-top: 200px;
   padding-bottom: 50px;
   margin: 0;
 }
 
 #section1 h6 {
-    font-family: 'Indie Flower', cursive;
-    font-size: 1.1em;
-
+  font-family: "Indie Flower", cursive;
+  font-size: 1.1em;
 }
 
 #section1 button {
   padding: 8px;
   margin: 5px;
-}
-
-.btn-group {
-  display : flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-content: center;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 25px;
-
-  /* padding-bottom: 200px;
-  padding: 25px; */
-
-
 }
 
 #section2 {
@@ -105,7 +85,6 @@ footer button {
 #portfolioLinks {
   column-fill: auto;
   padding-top: 50px;
-
 }
 
 #section3 {
@@ -114,7 +93,22 @@ footer button {
 
 #section3 .logoFont {
   font-size: 1.6em;
-  font-family: 'Indie Flower', cursive;
+  font-family: "Indie Flower", cursive;
+}
+
+/* Styling by class */
+.btn-group {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 25px;
+}
+
+.myPic {
+  border-radius: 15px !important;
 }
 
 /* Media Queries  */
@@ -122,7 +116,7 @@ footer button {
 @media screen and (max-width: 760px) {
   .btn-group {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
   }
   #section1 button {
     width: 40%;
