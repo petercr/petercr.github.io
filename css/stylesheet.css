@@ -121,4 +121,8 @@ footer button {
   #section1 button {
     width: 40%;
   }
+  #bottom-logo {
+    height: 50%;
+    width: 50%;
+  }
 }
