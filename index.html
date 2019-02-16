@@ -359,17 +359,22 @@
 
       <hr />
       <div class="col-xs-12 mx-auto formsSection">
-        <form id="contactForm" name="contact" method="POST" data-netlify="true">
+        <form id="contactForm" name="contactForm" method="POST" data-netlify="true">
           <div class="form-group">
-            <label for="firstName">First Name</label> <input type="text"
-            class="form-control" id="firstName" placeholder="First Name"
-            required
+            <label for="firstName">First Name</label> 
+            <input type="text"
+            class="form-control" 
+            id="firstName" 
+            name="firstName"
+            placeholder="First Name"
+            required >
           </div>
           <div class="form-group">
             <label for="lastName">Last Name</label>
             <input
               type="text"
               class="form-control"
+              name = "lastName"
               id="lastName"
               placeholder="Last Name"
               required
@@ -381,6 +386,7 @@
               type="email"
               class="form-control"
               id="emailAddress"
+              name="emailAddress"
               placeholder="Email"
               required
             />
@@ -391,6 +397,7 @@
               type="text"
               class="form-control"
               id="subject"
+              name="subject"
               placeholder="How can I help you?"
               required
             />
@@ -399,7 +406,7 @@
             <label for="textArea"
               >Please expand upon what I can do for you</label
             >
-            <textarea class="form-control" rows="4" required></textarea>
+            <textarea class="form-control" id="comments" name="comments" rows="4" required></textarea>
           </div>
 
           <button type="submit" class="btn btn-primary">Submit</button>
