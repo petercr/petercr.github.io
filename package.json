@@ -24,7 +24,7 @@
   "homepage": "https://petercr.github.io",
   "devDependencies": {
     "gh-pages": "^1.2.0",
-    "parcel-bundler": "^1.10.3"
+    "parcel-bundler": "^1.11.0"
   },
   "dependencies": {
     "autoprefixer": "^9.1.5",
