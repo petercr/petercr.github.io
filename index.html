@@ -227,7 +227,8 @@
             <img
               class="card-img-top"
               src="img/randomQuote.png"
-              alt="test picture"
+              alt="Random Quote Website"
+              id="random-img"
             />
             <div class="card-body">
               <h5>
@@ -261,7 +262,8 @@
             <img
               src="/img/wikiSearch.png"
               class="card-img-top"
-              alt="test picture"
+              alt="Wikipedia Search Website"
+              id="wiki-img"
             />
             <div class="card-body">
               <h5>
@@ -295,6 +297,7 @@
               src="img/real_estate_thumb.png"
               class="card-img-top"
               alt="Real Estate Website"
+              id="real-estate-img"
             />
             <div class="card-body">
               <h5>
@@ -327,6 +330,7 @@
               src="img/find_a_pet.png"
               class="card-img-top"
               alt="test picture"
+              id="find-a-pet-img"
             />
             <div class="card-body">
               <h5>
@@ -550,6 +554,26 @@
   <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 
   <script>
+    const randomImg = document.getElementById("random-img");
+    randomImg.addEventListener("click", () => {
+      window.open("https://petercr.github.io/Random-Quote-Machine/");
+    });
+
+    const wikiImg = document.getElementById("wiki-img");
+    wikiImg.addEventListener("click", () => {
+      window.open("https://petercr.github.io/Wikipedia-Viewer/");
+    });
+
+    const realEstateImg = document.getElementById("real-estate-img");
+    realEstateImg.addEventListener("click", () => {
+      window.open("https://petercr.github.io/real-estate-mockup/");
+    });
+
+    const findPetImg = document.getElementById("find-a-pet-img");
+    findPetImg.addEventListener("click", () => {
+      window.open("https://petercr.github.io/find-a-pet/");
+    });
+
     window.sr = ScrollReveal();
 
     sr.reveal(".navbar", {
