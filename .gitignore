@@ -3,3 +3,7 @@ thumbs.db
 
 # Npm packages
 node_modules/
+
+# Parcel Build Files
+/.cache
+/dist
