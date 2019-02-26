@@ -4,14 +4,6 @@
 */
 
 /* GLOBAL styling*/
-.nav {
-  font-family: "Spectral", serif;
-}
-
-.navbar-brand {
-  font-weight: bold;
-  font-family: "Indie Flower", cursive;
-}
 
 body {
   font-family: "Roboto Slab", serif;
@@ -96,7 +88,23 @@ footer button {
   font-family: "Indie Flower", cursive;
 }
 
+#random-img,
+#wiki-img,
+#real-estate-img,
+#find-a-pet-img {
+  cursor: pointer;
+}
+
 /* Styling by class */
+.nav {
+  font-family: "Spectral", serif;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-family: "Indie Flower", cursive;
+}
+
 .btn-group {
   display: flex;
   flex-direction: row;
