@@ -24,7 +24,7 @@
   "homepage": "https://capecod.world",
   "devDependencies": {
     "gh-pages": "^1.2.0",
-    "parcel-bundler": "^1.11.0"
+    "parcel-bundler": "^1.12.3"
   },
   "dependencies": {
     "autoprefixer": "^9.1.5",
