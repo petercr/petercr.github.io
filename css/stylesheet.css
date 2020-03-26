@@ -119,7 +119,7 @@ footer button {
 }
 
 .myPic {
-  border-radius: 15px !important;
+  border-radius: 20px !important;
 }
 
 /* Media Queries  */
@@ -130,8 +130,8 @@ footer button {
     flex-direction: column;
   }
   .myPic {
-    height: 450px !important;
-    width: 200px !important;
+    max-height: 450px !important;
+    width: auto;
   }
   #section1 button {
     width: 40%;
