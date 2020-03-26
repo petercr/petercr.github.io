@@ -23,11 +23,11 @@
   },
   "homepage": "https://capecod.world",
   "devDependencies": {
-    "gh-pages": "^1.2.0",
-    "parcel-bundler": "^1.12.3"
+    "gh-pages": "^2.2.0",
+    "parcel-bundler": "^1.12.4"
   },
   "dependencies": {
-    "autoprefixer": "^9.1.5",
-    "postcss-modules": "^1.4.1"
+    "autoprefixer": "^9.7.5",
+    "postcss-modules": "^1.5.0"
   }
 }
