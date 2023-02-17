@@ -90,7 +90,7 @@ footer button {
   justify-content: space-evenly;
 }
 
-#pomodoro-img,
+#wildresponse-img,
 #magnolia-img,
 #real-estate-img,
 #dev-img {
@@ -122,6 +122,12 @@ footer button {
   border-radius: 20px !important;
 }
 
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 /* Media Queries  */
 /* Tables and smaller */
 @media screen and (max-width: 780px) {
@@ -129,13 +135,16 @@ footer button {
     display: flex;
     flex-direction: column;
   }
+
   .myPic {
     max-height: 450px !important;
     width: auto;
   }
+
   #section1 button {
     width: 40%;
   }
+
   #bottom-logo {
     height: 50%;
     width: 50%;
